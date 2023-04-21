@@ -1,0 +1,1 @@
+Carpeta "partials": Esta carpeta contiene pequeñas partes de código que se utilizan en diferentes páginas, como un formulario de contacto, una sección de comentarios, etc.

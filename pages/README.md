@@ -1,0 +1,1 @@
+Carpeta "pages": Aquí se encuentran las diferentes páginas que componen el sitio web. Cada página se guarda como un archivo PHP independiente.

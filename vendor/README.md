@@ -1,0 +1,1 @@
+Carpeta "vendor": Esta carpeta contiene las bibliotecas de terceros que se utilizan en el proyecto.
