@@ -7,9 +7,9 @@ function portafolioController(){
     $sentenciaSql = new SentenciasSql();
 
     if($_POST){
-        $nombreProyecto = $_POST["nombreProyecto"];
-        $imagenProyecto = $_POST["imagenProyecto"];
-        $descProyecto   = $_POST["descProyecto"];
+        $nombreProyecto = isset( $_POST["nombreProyecto"]) ? $_POST["nombreProyecto"]:'';
+        $imagenProyecto = isset( $_POST["imagenProyecto"]) ? $_POST["imagenProyecto"]:'';
+        $descProyecto   = isset( $_POST["descProyecto"]  ) ? $_POST["descProyecto"]:'';
 
         $nuevoProyecto = (object)array(
             "proyecto_name" => $nombreProyecto, 
@@ -18,6 +18,8 @@ function portafolioController(){
         );
       
         $sentenciaSql->insertartRegistro( $nuevoProyecto );
+        
+        header("Location:../pages/ver-registros.php");
 
     }
 
