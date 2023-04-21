@@ -1,1 +1,0 @@
-Carpeta "includes": Esta carpeta contiene archivos que se incluyen en diferentes páginas del proyecto, como el encabezado, pie de página, menú, etc.

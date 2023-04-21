@@ -38,4 +38,6 @@ class ConnectionDb
 
     }
 }
+
 // echo '<script>console.log('.json_encode($auth->nombre) . ');</script>';
+?>

@@ -1,1 +1,0 @@
-Carpeta "templates": Aquí se guardan las plantillas que se utilizan para mostrar el contenido de la página. Estas plantillas pueden contener código HTML, PHP y código que se repite en diferentes secciones de la página.
