@@ -3,8 +3,8 @@ class ConnectionDb
 {
     private $DB_HOST = 'localhost';
     private $NAME_DB = 'portafolio';
-    private $DB_USER = '';
-    private $DB_PASS = '';
+    private $DB_USER = 'root';
+    private $DB_PASS = '17121991';
     private $conexion;
 
     public function __construct()
