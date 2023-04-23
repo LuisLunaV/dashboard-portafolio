@@ -17,6 +17,15 @@
             $sql = "INSERT INTO proyectos (proyecto_name, proyecto_img, proyecto_desc ) values ('$data->proyecto_name','$data->proyecto_img','$data->proyecto_desc')";
             $this->connectionDb->ejcutarSentencia($sql);
         }
+
+        public function eliminarRegistro( $id ){
+
+            $sql = "DELETE FROM proyectos where Proyecto_id = $id";
+
+            $this->connectionDb->ejcutarSentencia($sql);
+
+        }
     }
-    
+    // echo '<script>console.log('.json_encode($auth->nombre) . ');</script>';
+
 ?>

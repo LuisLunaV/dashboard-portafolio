@@ -9,6 +9,7 @@
                     <th scope="col">#Id</th>
                     <th scope="col">Nombre del proyecto</th>
                     <th scope="col">Imagen</th>
+                    <th scope="col">Descripcion</th>
                     <th class="d-flex justify-content-center" scope="col">Acciones</th>
                 </tr>
             </thead>
@@ -18,10 +19,11 @@
                     <td scope="row"><?php echo $proyecto["Proyecto_id"] ?></td>
                     <td><?php echo $proyecto["proyecto_name"] ?></td>
                     <td><?php echo $proyecto["proyecto_img"] ?></td>
+                    <td><?php echo $proyecto["proyecto_desc"] ?></td>
                     <td class="d-flex justify-content-center">
                         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                            <button type="button" class="btn btn-warning">Editar</button>
-                            <button type="button" class="btn btn-danger">Eliminar</button>
+                            <a class="btn btn-warning" href="">Editar</a>
+                            <a class="btn btn-danger" href="?borrar=<?php echo $proyecto["Proyecto_id"];?>">Eliminar</a>
                         </div>
                     </td>
                 </tr>

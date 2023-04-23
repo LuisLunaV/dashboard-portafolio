@@ -8,7 +8,7 @@ function portafolioController(){
 
     if($_POST){
         $nombreProyecto = isset( $_POST["nombreProyecto"]) ? $_POST["nombreProyecto"]:'';
-        $imagenProyecto = isset( $_POST["imagenProyecto"]) ? $_POST["imagenProyecto"]:'';
+        $imagenProyecto = isset( $_FILES["archivo"]["name"])? $_FILES["archivo"]["name"]:'';
         $descProyecto   = isset( $_POST["descProyecto"]  ) ? $_POST["descProyecto"]:'';
 
         $nuevoProyecto = (object)array(

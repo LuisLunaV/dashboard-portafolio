@@ -8,7 +8,7 @@
 Datos de proyecto            </div>
             <div class="card-body">
 
-<form action="portafolio.php" method="POST">
+<form action="portafolio.php" method="POST" enctype="multipart/form-data">
         <div class="mb-3 row">
             <div class="w-100">
                 <label for="nombreProyecto" class="col-4 col-form-label">Nombre del proyecto:</label>
@@ -18,8 +18,8 @@ Datos de proyecto            </div>
 
         <div class="mb-3 row">
             <div class="w-100">
-                <label for="imagenProyecto" class="col-4 col-form-label">Imagen del proyecto:</label>
-                <input type="file" class="form-control" name="imagenProyecto" id="inputName" placeholder="Password" required>
+                <label for="archivo" class="col-4 col-form-label">Imagen del proyecto:</label>
+                <input type="file" class="form-control" name="archivo" id="inputName" placeholder="Password" required>
             </div>
         </div>
 
