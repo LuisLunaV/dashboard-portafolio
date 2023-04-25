@@ -6,7 +6,7 @@
         <div class="card">
             <div class="card-header">
 Datos de proyecto            </div>
-            <div class="card-body">
+            <div class="card-body sombras-bottom">
 
 <form action="portafolio.php" method="POST" enctype="multipart/form-data">
         <div class="mb-3 row">
@@ -30,7 +30,7 @@ Datos de proyecto            </div>
 
         <div class="mb-3 row">
             <div>
-                <button type="submit" class="btn btn-success">Entrar al portafolio</button>
+                <button type="submit" class="btn btn-success">Subir proyecto</button>
             </div>
         </div>
     </form>

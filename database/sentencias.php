@@ -25,6 +25,10 @@
             $this->connectionDb->ejcutarSentencia($sql);
 
         }
+
+        public function actualizarRegistr( $id ){
+            // $sql = "UPDATE FROM proyectos where ";
+        }
     }
     // echo '<script>console.log('.json_encode($auth->nombre) . ');</script>';
 

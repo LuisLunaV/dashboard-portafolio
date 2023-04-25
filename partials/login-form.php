@@ -3,7 +3,7 @@
     
     <div class="col-md-5">
         <br>
-        <div class="card">
+        <div class="card sombras-bottom">
             <div class="card-header">
                 Iniciar sesion
             </div>
@@ -27,7 +27,7 @@
 
         <div class="mb-3 row">
             <div>
-                <button type="submit" class="btn btn-success">Entrar al portafolio</button>
+                <button type="submit" class="btn btn-success">Entrar al panel de control</button>
             </div>
         </div>
     </form>

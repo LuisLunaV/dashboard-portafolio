@@ -18,7 +18,9 @@
                 <tr class="">
                     <td scope="row"><?php echo $proyecto["Proyecto_id"] ?></td>
                     <td><?php echo $proyecto["proyecto_name"] ?></td>
-                    <td><?php echo $proyecto["proyecto_img"] ?></td>
+                    <td>
+                        <img width="100" src="../assets/img/<?php echo $proyecto["proyecto_img"] ?>" alt="img_proyecto">
+                    </td>
                     <td><?php echo $proyecto["proyecto_desc"] ?></td>
                     <td class="d-flex justify-content-center">
                         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
